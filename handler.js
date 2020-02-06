@@ -1,8 +1,9 @@
+// import { serverKey, sampleRegisterToken } from "./config";
 var FCM = require("fcm-node");
-var serverKey = "****PLACE YOUR SERVER KEY HERE****";
+var serverKey = "****PLACE YOUR SERVER KEY HERE****"; // replace with your serverKey
 var fcm = new FCM(serverKey);
 var message = {
-  to: "****YOUR TARGET DEVICE TOKEN****",
+  to: "****YOUR TARGET DEVICE TOKEN****", // replace with your sampleRegisterToken
   notification: {
     title: "Sla---am Dunk!",
     body: "...🍏👌"
