@@ -1,5 +1,5 @@
 {
-  "name": "lambdanode",
+  "name": "pn-nodejs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
   },
-  "author": "",
+  "author": "Song Cho",
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.604.0",
